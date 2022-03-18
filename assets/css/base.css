@@ -8,6 +8,7 @@
     --header_height: 120px;
     --navbar_height: 34px;
     --header-with-search-height: calc(var( --header_height) - var(--navbar_height));
+    --header-sort-bar-height: 46px;
 }
 *{
     box-sizing: inherit;
@@ -20,14 +21,7 @@ line-height: 1.6rem;
 font-family: 'Roboto', sans-serif;
 box-sizing: border-box;
 }
-.grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width{
-    width: 100% ;
-}
+
 .grid__row{
     display: flex;
     flex-wrap: wrap;
